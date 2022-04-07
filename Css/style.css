@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #191919;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 2em 1em;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main-title {
+    text-align: center;
+    color: #E53170;
+    font-size: 40px;
+}
+
+#text {
+    margin-bottom: 30px;
+}
+
+.team-box {
+    width: calc(100% / 3 - 8px);
+    float: left;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    background-color: #0F0E17;
+    padding: 2px;
+}
+
+.team-box .photo {
+    width: 30%;
+    height: 30%;
+    float: left;
+    margin-right: 8px;
+}
+
+.work,
+.member-name {
+    color: white;
+}
+
+.email {
+    color: #19A2D8;
+}
+
+.member-name,
+.work,
+.email {
+    padding: 3px;
+}
+
+.member-name,
+.main-title {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
